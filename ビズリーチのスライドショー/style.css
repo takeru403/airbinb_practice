@@ -1,0 +1,176 @@
+.pg-top_kv-list {
+  width: 100%;
+  overflow: hidden; }
+  .pg-top_kv-list ul {
+    width: 800%;
+    height: 600px;
+    overflow: hidden; }
+    .pg-top_kv-list ul li {
+      float: left; }
+      [class*="top_kv-wrapper"] {
+        width: 12.5%;
+        height: 600px;
+        overflow: hidden;
+        position: relative; }
+        @media screen and (max-width: 1200px) {
+          [class*="top_kv-wrapper"] {
+            height: auto; } }
+        @media screen and (max-width: 800px) {
+          [class*="top_kv-wrapper"] {
+            height: 300px; } }
+      
+      [class*="top_kv-wrapper"]:before {
+        content: "";
+        display: block;
+        padding-top: 40%; }
+        @media screen and (max-width: 800px) {
+          [class*="top_kv-wrapper"]:before {
+            padding-top: 39%; } }
+      
+      /* ------ slide-thumbnail ------ */
+      .pg-top_carousel-dotto {
+        margin-top: 20px;
+        text-align: center; }
+        .pg-top_carousel-dotto div {
+          display: inline-block;
+          width: 148px;
+          height: 62px;
+          border: 1px solid #cecece;
+          background-repeat: no-repeat;
+          background-position: left top;
+          background-size: 100% auto;
+          cursor: pointer; }
+          .pg-top_carousel-dotto div + div {
+            margin-left: 20px; }
+          .pg-top_carousel-dotto div:first-of-type {
+            background-image: url("/img/top/top_mv_bizreach.jpg"); }
+          .pg-top_carousel-dotto div:nth-of-type(2) {
+            background-image: url("/img/top/top_mv_careertrek.jpg"); }
+          .pg-top_carousel-dotto div:nth-of-type(3) {
+            background-image: url("/img/top/top_mv_hrmossaiyo.jpg"); }
+          .pg-top_carousel-dotto div:nth-of-type(4) {
+            background-image: url("/img/top/top_mv_campas.jpg"); }
+          .pg-top_carousel-dotto div:before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.8);
+            position: relative;
+            z-index: 2; }
+          .pg-top_carousel-dotto div.current:before {
+            content: none; }
+      
+      /* -------- top_directscout --------- */
+      .pg-top_kv-wrapper {
+        background: #780a0e;
+        background: linear-gradient(0deg, #780a0e 0%, #93090e 14%, #ab0a0d 40%, #93090e 62%, #700b0f 95%); }
+      
+      .pg-top_directscout {
+        width: 1200px;
+        position: absolute;
+        top: 68%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between; }
+        .pg-top_directscout h2 img {
+          width: 98%; }
+        @media screen and (max-width: 1200px) {
+          .pg-top_directscout {
+            width: 70%;
+            top: 70%;
+            left: 43%; }
+            .pg-top_directscout h2 img {
+              width: 90%; } }
+        @media screen and (max-width: 1100px) {
+          .pg-top_directscout {
+            top: 62%; } }
+        @media screen and (max-width: 800px) {
+          .pg-top_directscout {
+            top: 55%;
+            left: 48%; }
+            .pg-top_directscout h2 {
+              margin-bottom: 8%; }
+              .pg-top_directscout h2 img {
+                width: 300px; } }
+      
+      .pg-top_directscout-inner {
+        margin: 72px 0 0 50px; }
+        @media screen and (max-width: 1200px) {
+          .pg-top_directscout-inner {
+            margin: 30px 0 0 50px; } }
+        @media screen and (max-width: 1000px) {
+          .pg-top_directscout-inner {
+            margin: 24px 0 0 10px; } }
+        @media screen and (max-width: 800px) {
+          .pg-top_directscout-inner {
+            position: absolute;
+            top: 60%;
+            left: 53%;
+            transform: translate(-50%, -50%);
+            margin: 0; } }
+      
+      .pg-top_directscout-btn {
+        margin: 40px 0 0 15px;
+        width: 340px; }
+        @media screen and (max-width: 1200px) {
+          .pg-top_directscout-btn {
+            width: 290px; } }
+        @media screen and (max-width: 800px) {
+          .pg-top_directscout-btn {
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin: 36px 0 0; } }
+        .pg-top_directscout-btn a {
+          background: #fff;
+          border-radius: 5px;
+          box-sizing: border-box;
+          box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.07);
+          color: #000;
+          transition: all 0.3s ease-out;
+          display: block;
+          font-size: 18px;
+          line-height: 80px;
+          width: 100%;
+          text-align: center;
+          transition: all 0.3s;
+          margin: 0 auto; }
+          @media screen and (max-width: 1200px) {
+            .pg-top_directscout-btn a {
+              font-size: 17px; } }
+          @media screen and (max-width: 1000px) {
+            .pg-top_directscout-btn a {
+              font-size: 13px; } }
+          @media screen and (max-width: 800px) {
+            .pg-top_directscout-btn a {
+              width: 240px;
+              line-height: 50px;
+              border-radius: 3px; } }
+          .pg-top_directscout-btn a:hover {
+            opacity: 0.7; }
+      
+      @media screen and (max-width: 1200px) {
+        .pg-top_directscout-mv img {
+          width: 140%; } }
+      
+      @media screen and (max-width: 800px) {
+        .pg-top_directscout-mv img {
+          width: 50%;
+          margin-left: 30%; } }
+      
+      @media screen and (max-width: 420px) {
+        .pg-top_directscout-mv img {
+          width: 107%;
+          margin-left: 3%; } }
+      
+      @media screen and (max-width: 320px) {
+        .pg-top_directscout-mv img {
+          width: 120%;
+          margin-left: 0; } }
+      
+/* No CSS *//*# sourceMappingURL=style.css.map */
